@@ -5,7 +5,7 @@ _`This project showcases an AWS MLOps infrastructure setup using Terraform Infra
 ## _`Key Infrastructure Components:`_ <br>
 
 ***Networking:*** Deployed VPCs, subnets, route tables, and associations to structure network access and routing.
-***Security:*** Configured security groups to allow SSH (port 22), ICMP (ping), and HTTP (port 80) access exclusively from the home network IP address, with corresponding egress rules.
+***Security:*** Configured security groups to allow SSH (port 22), ICMP (ping), and HTTP (port 80) access exclusively from the home network IP address, with corresponding egress rules. <br>
 ***Compute:*** Provisioned EC2 instances for workload deployment and machine learning operations. <br>
 
 _`By leveraging Terraform's provisioners, this project highlights automated file transfers, custom local command executions, and remote command executions to simplify and enhance the deployment workflow in a reproducible and efficient manner. This infrastructure setup uses the AWS provider to ensure compatibility and reliability within the AWS ecosystem.`_
